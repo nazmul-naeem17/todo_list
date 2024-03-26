@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://blog.teamup.com/wp-content/uploads/2021/12/todo-header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+
+  color: #fff;
+}
+
+form {
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form input,
+form button {
+  margin-top: 30px;
+  padding: 10px;
+  border: none;
+  background: rgb(255, 255, 255);
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+}
+
+form button {
+  width: 60px;
+  color: rgb(238, 139, 97);
+  background: white;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+form button:hover {
+  color: white;
+  background: #d58998;
+}
+
+.todo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-list {
+  list-style: decimal;
+  list-style-position: inside;
+  color: black;
+  font-size: 25px;
+  border: 2px solid ghostwhite;
+  border-radius: 5px;
+  padding: 8px;
+}
